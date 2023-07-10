@@ -35,7 +35,7 @@ module.exports.destroyOption = async function(req, res) {
 
 
 
-//for voting
+//for voting to an option
 module.exports.vote=async function(req,res){
     try{
         let option=await Option.findById(req.params.id);

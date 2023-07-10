@@ -1,6 +1,6 @@
 const mongoose=require('mongoose');
 
-
+//creating the Schema
 const questionSchema=new mongoose.Schema({
     question:{
         type:'String',

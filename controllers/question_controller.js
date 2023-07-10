@@ -26,7 +26,7 @@ module.exports.questions=async function(req,res){
 }
 
 
-//creating options
+//creating options 
 module.exports.options=async function(req,res){
     try{
 
@@ -45,9 +45,7 @@ module.exports.options=async function(req,res){
               return res.status(200).json({
                 message:"option has been created"
             })
-        }
-
-        
+        }  
     }catch(err){console.log("error while creating the options:",err);
     return res.status(500).json({
         message:"can't add options"
@@ -81,11 +79,10 @@ module.exports.destroyQuestion=async function(req,res){
 }
 
 
+
 //to view a question
 module.exports.view=async function(req,res){
     try{
-
-// let question=await Question.findById(req.params.id).populate('options').exec();
 
 let question = await Question.findById(req.params.id)
       .populate({

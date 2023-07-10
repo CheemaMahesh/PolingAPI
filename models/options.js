@@ -1,6 +1,7 @@
 //importing the mongoose
 const mongoose=require('mongoose');
 
+//Schema for Options
 const optionSchema=new mongoose.Schema({
     option:{
         type:'String',
@@ -18,4 +19,5 @@ const optionSchema=new mongoose.Schema({
 
 const Option=mongoose.model('Option',optionSchema);
 
+//exporting the model
 module.exports=Option;

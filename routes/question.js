@@ -9,4 +9,5 @@ router.post('/:id/options/create',questionAPI.options);
 router.get('/:id/delete',questionAPI.destroyQuestion);
 router.get('/:id',questionAPI.view);
 
+//exporting the question router
 module.exports=router;

@@ -14,6 +14,9 @@ app.use(express.urlencoded(
 
 //making routes available in index.js(middleware);
 app.use('/',require('./routes'));
+
+
+//Start
 app.listen(Port,function(err){
     if(err){console.log("error in starting the server");return}
 

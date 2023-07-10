@@ -1,6 +1,7 @@
 //import question
 const Question=require('../models/questions');
 
+//home API page
 module.exports.home=async function(req,res){
     try{
 
