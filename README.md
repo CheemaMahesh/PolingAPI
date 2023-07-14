@@ -36,4 +36,11 @@ This is a polling system API built with Node.js that allows users to create ques
 5.Delete an option (optional: if no votes have been given)
 6.View a question with its options and votes
 
+**Technologies Used**
+1.Node.js
+2.Express.js (for API routing)
+3.MongoDB (as the database)
+4.Mongoose (for MongoDB object modeling)
+5.Postman (for testing the API endpoints)
+
 
