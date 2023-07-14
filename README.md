@@ -43,4 +43,17 @@ This is a polling system API built with Node.js that allows users to create ques
 4.Mongoose (for MongoDB object modeling)
 5.Postman (for testing the API endpoints)
 
+**##Getting Started**
+***Prerequisites***
+==>Node.js installed on your local machine
+==>MongoDB installed and running on your local machine
+==Postman (or any other API testing tool) installed
+==>Clone this repository
+==>go to terminal 
+    a.npm init
+    b.npm install express
+    c.npm install mongoose
+    d.npm install passport
+    e.npm install passport-jwt
+    
 
